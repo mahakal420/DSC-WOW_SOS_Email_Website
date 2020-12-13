@@ -1,0 +1,238 @@
+.head {
+    background-color: black;
+    color: white;
+    grid-column: 1/-1;
+    display: grid;
+    font-family: 'Poppins', sans-serif;
+    grid-template-columns: auto;
+    /* max-height: min-content; */
+}
+
+.menu {
+    background-color: #474DB4;
+    grid-column: 1/-1;
+    display: inline;
+}
+
+.mid {
+    background-color: darkblue;
+    grid-column: 1/-1;
+}
+
+.right {
+    background-color: darkblue;
+    color: black;
+    font-size: larger;
+}
+.right:hover{
+  color:white;
+}
+
+.center {
+    /*background-image: url('../images/A.jpg');*/
+    opacity:0.85;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: center;
+    /* overflow: scroll; */
+    /* align-items: center; */
+
+}
+
+.left {
+    background-color: darkblue;
+    overflow: scroll;
+}
+
+.footer {
+    background-color: lightgreen;
+    grid-column: 1/-1;
+}
+
+.main {
+    display: grid;
+    grid-template-rows: 80px 45px 30px 800px 30px;
+    grid-template-columns: 0.5fr 3fr 0.82fr;
+    /* width:100%; */
+    /* height: 100%; */
+    margin: 0px;
+    padding: 0px;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.ulinks a {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+
+h2 {
+    text-align: center;
+    position: relative;
+    top: -45%;
+    /* left:40%; */
+    /* font-size: smaller; */
+    color: yellow;
+    text-shadow: 1px 2px 10px black;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    top: -3%;
+    left: 4%;
+    color: white;
+    text-shadow: 1px 1px 5px white;
+    font-size: 30px;
+    padding: 0px
+}
+
+.top {
+    position: relative;
+    float: right;
+    top: -100%;
+    /* left:90%;  */
+}
+
+ul {
+
+    list-style-type: none;
+
+    float: right;
+    margin:0px;
+
+
+}
+
+li {
+    display: inline-block;
+
+
+
+    color: black;
+    background-color: #E1BE37;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.nav {
+    text-decoration: none;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px white;
+    color:black;
+}
+
+.c {
+    color: #F37416;
+    position: relative;
+    top: -40%;
+    /* left:30%; */
+    font-size: larger;
+    text-align: center;
+}
+
+.sidebar {
+    color: white;
+}
+
+.cen {
+    position: relative;
+    /* top: 3%; */
+    /* left:38%; */
+    text-align: center;
+    font-size: 20px;
+}
+
+input {
+    position: relative;
+
+    top: 35%;
+    left: 42%;
+}
+
+.icons {
+    position: relative;
+    ;
+    /* top:5%; */
+    left: 35%;
+    /* bottom: 20%; */
+    /* right: 20%; */
+    margin-top: 5px;
+    width: 80%;
+    align-self: center;
+    /* display: block; */
+}
+
+.signs {
+    padding: 10px;
+    margin: 0px;
+    position: relative;
+}
+
+.box {
+    position: relative;
+    top: 25%;
+    left: 16%;
+    align-self: center;
+    width: 70%;
+    height: 130px;
+    background-color: cyan;
+    margin: 0px;
+    padding: 0px;
+}
+
+.two {
+    color: yellowgreen;
+    /* text-decoration: b; */
+    font-size: 24px;
+    position: relative;
+    left: -1%;
+    top: 10%;
+    font-weight: bold;
+    /* text-shadow: 1px 1px 40px white; */
+}
+
+.three {
+    color: yellowgreen;
+    /* text-decoration: b; */
+    font-size: 24px;
+    position: relative;
+    /* text-align: center; */
+    left: 5%;
+    top: 15%;
+    font-weight: bold;
+    width: 80%;
+    /* text-shadow: 1px 1px 40px white; */
+}
+
+.four a {
+    /* text-decoration: none; */
+    color: yellow;
+
+}
+
+.four {
+    display: block;
+}
+
+textarea {
+    align-content: center;
+    margin: 10px;
+    margin-left: 17%;
+    width: 70%;
+}
+
+button {
+    position: relative;
+    left: 75%;
+    top: -10%;
+        /* margin-left: 100%; */
+        margin:10px;
+}

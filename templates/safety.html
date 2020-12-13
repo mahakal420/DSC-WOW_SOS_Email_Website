@@ -1,0 +1,93 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>Document</title>
+
+</head>
+
+<body style="margin:0px ;">
+    <div class="main">
+
+        <div class="head aa">
+            <div></div>
+            <div>
+                <h1>BENGALARU POLICE EMERGENCY SERVICE PORTAL FOR CITIZENS</h1>
+            </div>
+
+        </div>
+
+        <div class="menu aa">
+            <ul>
+                <li><a href="{% url 'home' %}" class="nav"><b>HOME</b></a></li>
+                <li><a href="{% url 'safety' %}" class="nav"><b>SAFETY-TIPS</b></a></li>
+                <li><a href="{% url 'contact' %}" class="nav"><b>CONTACT-US</b></a></li>
+                <li><a href="{% url 'help' %}" class="nav"><b>HELP</b></a></li>
+            </ul>
+
+        </div>
+        <div class="mid aa">
+            <p class="c"><b>Dial on 100 in case of Emergency Help</b></p>
+        </div>
+
+        <div class="right aa">
+            <p> <u>Quick Links</u></p>
+            <br>
+            <p> <a href="https://www.bcp.gov.in/" class="sidebar">Police Website</a></p>
+            <br>
+            <p> <a href="https://ceir.gov.in/Home/index.jsp" class="sidebar">Lost Phone Report(CEIR)</a></p>
+            <br>
+            <p><a href="https://citizen.mppolice.gov.in/FirView.aspx" class="sidebar">Quick FIR</a></p>
+            <br>
+            <p> <a href="https://cybercrime.gov.in/" class="sidebar">Cyber Crime Report</a></p>
+            <br>
+
+        </div>
+
+        <div class="center aa">
+            <div class="two">
+                <ul class="pointz">
+                    <li class="yp"></li><u>Be alert and make smart choices</u> <br><br>
+                    <li class="yp"></li><u>Walk with a friend or a group of friends</u> <br><br>
+                    <li class="yp"></li><u>Focus on your surroundings,not your phone or the electronics</u> <br><br>
+                    <li class="yp"></li><u>Know your route and the quickest way to get help</u> <br><br>
+                    <li class="yp"></li><u>Know the locations of the emergency telephones </u><br><br>
+                    <li class="yp"></li><u>Use lyft ride for smart rodes on or near campus</u> <br><br>
+                </ul>
+            </div>
+        </div>
+
+        <div class="left aa">
+            <div class="ulinks" style="color:chartreuse">
+                <p>&nbsp;<a href="#">connect us on </a><img src="{% static 'images/pngfuel.com (1).png' %}" width="33" height="28"></p>
+                <hr>
+                <p>&nbsp;<a href="#">connect us on </a><img src="{% static 'images/pngfuel.com (2).png' %}" width="33" height="33"></p>
+                <hr>
+                <p>&nbsp;<a href="#">connect us on </a><img src="{% static 'images/pngfuel.com (3).png' %}" width="33" height="33"></p>
+                <hr>
+                <p>&nbsp;<a href="#">connect us on </a><img src="{% static 'images/pngfuel.com (4).png' %}" width="33" height="33"></p>
+                <hr>
+                <p>&nbsp;<a href="#">connect us on </a><img src="{% static 'images/pngfuel.com.png' %}" width="33" height="33"></p>
+                <hr>
+            </div>
+            <div class="links" style="color:cornsilk">
+                <p>&nbsp;FAQ.-</p>
+                <hr>
+                <p><u>&nbsp;<a href="">How It Works?</a></u></p>
+                <hr>
+                <p><u>&nbsp;<a href="">How much time it will take?</a></u></p>
+                <hr>
+                <p><u>&nbsp;<a href="">Is it secure?</a></u></p>
+                <hr>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

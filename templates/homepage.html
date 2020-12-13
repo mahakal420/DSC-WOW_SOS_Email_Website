@@ -1,0 +1,119 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}"><link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body style="margin:0px ;">
+
+
+
+    <div class="main">
+
+        <div class="head aa">
+            <div></div>
+            <div>
+                <h1>BENGALARU POLICE EMERGENCY SERVICE PORTAL FOR CITIZENS</h1>
+            </div>
+
+        </div>
+
+        <div class="menu aa">
+            <ul class="navigation">
+                <li><a href="{% url 'home' %}" class="nav"><b>HOME</b></a></li>
+                <li><a href="{% url 'safety' %}" class="nav"><b>SAFETY-TIPS</b></a></li>
+                <li><a href="{% url 'contact' %}" class="nav"><b>CONTACT-US</b></a></li>
+                <li><a href="{% url 'help' %}" class="nav"><b>HELP</b></a></li>
+            </ul>
+
+        </div>
+        <div class="mid aa">
+            <p class="c"><b>Dial on 100 in case of Emergency Help</b></p>
+        </div>
+
+        <div class="right aa">
+            <p> <u>Quick Links</u></p>
+            <br>
+            <p> <a href="https://www.bcp.gov.in/" class="sidebar">Police Website</a></p>
+            <br>
+            <p> <a href="https://ceir.gov.in/Home/index.jsp" class="sidebar">Lost Phone Report(CEIR)</a></p>
+            <br>
+            <p><a href="https://citizen.mppolice.gov.in/FirView.aspx" class="sidebar">Quick FIR</a></p>
+            <br>
+            <p> <a href="https://cybercrime.gov.in/" class="sidebar">Cyber Crime Report</a></p>
+            <br>
+
+        </div>
+
+        <div class="center aa">
+            <!--
+            <h3 style="color: chartreuse;" class="cen">Enter Your Mobile Number</h3>
+            <form action="">
+                <input type="text" name="phone" placeholder="enter your number here">
+            </form>
+-->
+            <div class="icons">
+                <a href="{% url 'audio' %}"><img class="signs" src="{% static 'images/2.png' %}" height="100" width="100"></a>
+                <a href="{% url 'photo' %}"><img class="signs" src="{% static 'images/3.png' %}" height="100" width="100"></a>
+
+
+                <a href="{% url 'message' %}"><img class="signs" src="{% static 'images/1.png' %}" height="100" width="100"></a>
+
+
+            </div>
+            <br>
+<!--
+            <div class="box">
+                BANNER
+            </div>
+-->
+            <!-- <center><div style="height: 200px; width: 60%;">BANNER</div></center> -->
+        </div>
+
+        <div class="left aa">
+            <div class="ulinks" style="color:chartreuse">
+                <p>&nbsp;<a href="#">connect us on </a><img src="{% static 'images/pngfuel.com (1).png' %}" width="33" height="28"></p>
+                <hr>
+                <p>&nbsp;<a href="#">connect us on </a><img src="{% static 'images/pngfuel.com (2).png' %}" width="33" height="33"></p>
+                <hr>
+                <p>&nbsp;<a href="#">connect us on </a><img src="{% static 'images/pngfuel.com (3).png' %}" width="33" height="33"></p>
+                <hr>
+                <p>&nbsp;<a href="#">connect us on </a><img src="{% static 'images/pngfuel.com (4).png' %}" width="33" height="33"></p>
+                <hr>
+                <p>&nbsp;<a href="#">connect us on </a><img src="{% static 'images/pngfuel.com.png' %}" width="33" height="33"></p>
+                <hr>
+            </div>
+            <div class="links" style="color:cornsilk">
+                <p>&nbsp;FAQ.-</p>
+                <hr>
+                <p><u>&nbsp;<a href="">How It Works?</a></u></p>
+                <hr>
+                <p><u>&nbsp;<a href="">How much time it will take?</a></u></p>
+                <hr>
+                <p><u>&nbsp;<a href="">Is it secure?</a></u></p>
+                <hr>
+            </div>
+        </div>
+
+        
+    </div>
+</body>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</html>
